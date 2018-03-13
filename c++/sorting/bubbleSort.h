@@ -26,8 +26,8 @@ void bubbleSort(T &arrayBegining, T &arrayEnd, bool verbose=false)
       std::cout << "\n\n";
     }
   
-  // If the array is empty, then it is already sorted
-  if(arrayLength == 0)
+  // If the array is empty or has one element, then it is already sorted
+  if(arrayLength <= 1)
       return;
 
   for(int counter = 0; counter < arrayLength; ++counter)
