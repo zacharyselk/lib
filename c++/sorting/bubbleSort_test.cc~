@@ -32,4 +32,7 @@ int main()
   int* ePtrEnd   = &e[4];
   bubbleSort(ePtrBegin, ePtrEnd, true);
   */
+
+  int f[4] = {3,6,1,2}
+  bubbleSort_simple(f, 4, true);
 }
